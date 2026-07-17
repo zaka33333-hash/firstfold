@@ -1,0 +1,6 @@
+.DS_Store
+AGENTS.md
+SPRINT.md
+gtm/
+__pycache__/
+*.pyc

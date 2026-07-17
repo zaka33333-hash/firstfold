@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FirstFold audit input",
+  "description": "Human-readable schema reference. generate_audit.py performs dependency-free validation.",
+  "type": "object",
+  "required": ["meta", "executive_summary", "issues", "hero_copy", "test_hypotheses", "action_plan"],
+  "properties": {
+    "meta": {"type": "object", "required": ["client_name", "website", "audit_title", "audit_date", "prepared_by"]},
+    "executive_summary": {"type": "object", "required": ["headline", "overview", "opportunity", "key_findings"]},
+    "issues": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["title", "severity", "impact", "effort", "finding", "recommendation", "evidence"]}},
+    "hero_copy": {"type": "object", "required": ["eyebrow", "headline", "subhead", "cta", "supporting_note"]},
+    "test_hypotheses": {"type": "array", "minItems": 5, "maxItems": 5},
+    "action_plan": {"type": "array", "minItems": 7, "maxItems": 7}
+  }
+}

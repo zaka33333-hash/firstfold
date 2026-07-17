@@ -1,0 +1,48 @@
+name: Request a FirstFold audit
+description: Share a public page and conversion goal so we can confirm fit.
+title: "Audit request: "
+labels:
+  - audit-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering FirstFold. This request is public. Do not include passwords, analytics exports, customer data, private repository links, or other sensitive information.
+  - type: input
+    id: url
+    attributes:
+      label: Public page URL
+      description: The landing page or product page to review.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: action
+    attributes:
+      label: Primary visitor action
+      description: What single action should a visitor take?
+      placeholder: Start a trial, book a call, request a quote…
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - One free first-fold observation
+        - $49 Fix Map
+        - $149 Fix Sprint
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional public context
+      description: Audience, traffic source, or constraint that is safe to share publicly.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-request confirmation
+      options:
+        - label: I understand this GitHub issue is public and contains no sensitive information.
+          required: true

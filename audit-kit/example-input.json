@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "client_name": "Northstar Journals",
+    "website": "northstarjournals.example",
+    "audit_title": "Homepage Conversion Audit",
+    "audit_date": "2026-07-18",
+    "prepared_by": "FirstFold",
+    "fictional": true
+  },
+  "executive_summary": {
+    "headline": "The product feels thoughtful; the first screen makes visitors work too hard to understand why it matters.",
+    "overview": "Northstar appears to have a distinct, premium product and a visually calm brand. The above-the-fold experience, however, leads with atmosphere before customer value. A new visitor has to infer the product type, the outcome, and the reason to act now.\n\nThe fastest opportunity is not a wholesale redesign. It is clarifying the message, reducing choice friction, and making the proof already available easier to notice.",
+    "opportunity": "Make the first 10 seconds answer: what is this, who is it for, and why choose it today?",
+    "key_findings": [
+      "The hero headline is evocative but does not name the product or the outcome.",
+      "The primary call to action competes with two equally weighted next steps.",
+      "Trust signals exist below the fold, after the visitor has already been asked to buy."
+    ]
+  },
+  "issues": [
+    {
+      "title": "Hero message hides the product benefit",
+      "severity": "critical",
+      "impact": "High: unclear relevance can cause immediate exits from cold traffic.",
+      "effort": "small",
+      "finding": "The hero uses lifestyle language and a product image, but does not state that Northstar sells guided journals or what makes the system useful.",
+      "recommendation": "Lead with the customer outcome and product category in plain language, then keep the existing emotional tone in the supporting sentence.",
+      "evidence": [
+        "The first descriptive product phrase appears after the initial call to action.",
+        "The headline does not include a customer problem, outcome, or product category."
+      ]
+    },
+    {
+      "title": "Calls to action split the decision",
+      "severity": "high",
+      "impact": "Medium-high: multiple equal actions dilute the intended purchase path.",
+      "effort": "small",
+      "finding": "Shop, explore prompts, and take the quiz are presented with similar visual weight in the first viewport.",
+      "recommendation": "Choose one primary CTA for purchase-intent visitors and demote exploration paths to a secondary text treatment.",
+      "evidence": [
+        "Three first-screen actions have button-like styling.",
+        "No copy explains which option is the best first step."
+      ]
+    },
+    {
+      "title": "Proof arrives after the ask",
+      "severity": "high",
+      "impact": "Medium: visitors have little reason to trust the promise before seeing price or purchase controls.",
+      "effort": "medium",
+      "finding": "Customer testimonials and the product methodology are separated from the hero by several content blocks.",
+      "recommendation": "Add one concise proof point near the main CTA, with a link to deeper reviews or the methodology.",
+      "evidence": [
+        "The first social-proof element is not visible in a standard desktop first viewport.",
+        "The founder or methodology story is available but not summarized beside the offer."
+      ]
+    },
+    {
+      "title": "Product selection begins without a guide",
+      "severity": "medium",
+      "impact": "Medium: an unfamiliar catalog can create hesitation for first-time shoppers.",
+      "effort": "medium",
+      "finding": "The collection presents several journal types without a short comparison or recommended starting point.",
+      "recommendation": "Name the best first product, add a one-line chooser, and make any quiz clearly optional.",
+      "evidence": [
+        "Journal names do not indicate the intended use case at a glance.",
+        "The catalog does not visibly identify a popular or starter option."
+      ]
+    }
+  ],
+  "hero_copy": {
+    "eyebrow": "A five-minute ritual for a clearer day",
+    "headline": "Guided journals that turn scattered thoughts into a practice you can keep.",
+    "subhead": "Choose a beautifully made prompt journal designed to help you reflect with less pressure and more consistency.",
+    "cta": "Find your first journal",
+    "supporting_note": "Thoughtful prompts · Made for daily use · Ships in 1–2 business days"
+  },
+  "test_hypotheses": [
+    {
+      "hypothesis": "Naming the product and outcome in the headline will improve product-page starts from new visitors.",
+      "change": "A/B test the rewritten headline against the current lifestyle-first headline.",
+      "success_metric": "Increase in click-through rate on the primary CTA, segmented by first-time visitors."
+    },
+    {
+      "hypothesis": "A single dominant CTA will reduce decision friction.",
+      "change": "Keep ‘Find your first journal’ as the only filled hero button; render other paths as links.",
+      "success_metric": "Higher primary-CTA share without a drop in downstream add-to-cart rate."
+    },
+    {
+      "hypothesis": "Visible proof beside the CTA will increase confident product exploration.",
+      "change": "Add a short verified-review excerpt or methodology statistic under the hero CTA.",
+      "success_metric": "Lift in product detail views and add-to-cart rate from homepage sessions."
+    },
+    {
+      "hypothesis": "A named starter recommendation will help unfamiliar visitors choose.",
+      "change": "Feature one ‘Start here’ journal with its intended outcome in the collection entry point.",
+      "success_metric": "Higher collection-to-product click-through and lower collection-page exits."
+    },
+    {
+      "hypothesis": "A lightweight shipping reassurance will lower last-mile uncertainty.",
+      "change": "Place a truthful delivery/returns note below the hero CTA.",
+      "success_metric": "Improved add-to-cart rate; monitor support questions to confirm it addresses a real concern."
+    }
+  ],
+  "action_plan": [
+    {"day": 1, "focus": "Baseline", "actions": "Record current homepage, hero, collection, and checkout metrics; capture screenshots of the existing journey.", "deliverable": "One-page baseline and event checklist."},
+    {"day": 2, "focus": "Message", "actions": "Approve the new hero hierarchy and one primary CTA; confirm all product and shipping claims are accurate.", "deliverable": "Final copy block and claim-approval notes."},
+    {"day": 3, "focus": "First-screen build", "actions": "Implement the hero variant, secondary links, and one proof element in a reversible test or staging environment.", "deliverable": "QA-ready test variant."},
+    {"day": 4, "focus": "Selection help", "actions": "Add a starter recommendation or concise use-case labels to the entry collection.", "deliverable": "Annotated collection experience."},
+    {"day": 5, "focus": "Measurement", "actions": "Verify analytics events, test device layouts, and define the minimum sample and decision rule before launch.", "deliverable": "Experiment measurement plan."},
+    {"day": 6, "focus": "Launch", "actions": "Release the first controlled variant and check for broken links, mobile regressions, and unexpected event changes.", "deliverable": "Live test with launch checklist."},
+    {"day": 7, "focus": "Read signal", "actions": "Review early directional data and qualitative session notes; retain, revise, or stop the variant based on the pre-set rule.", "deliverable": "Short learning memo and next experiment decision."}
+  ]
+}

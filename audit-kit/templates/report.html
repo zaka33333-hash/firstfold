@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$report_title · $client_name</title>
+  <style>$css</style>
+</head>
+<body>
+  <main class="report">
+    <header class="masthead">
+      <div><p class="kicker">FirstFold / Conversion audit</p><h1>$report_title</h1><p class="client">Prepared for <strong>$client_name</strong> · $website</p></div>
+      <div class="meta"><span>Audit date</span><strong>$audit_date</strong><span>Prepared by</span><strong>$prepared_by</strong></div>
+    </header>
+    $fictional_label
+    <section class="summary section"><p class="eyebrow">Executive summary</p><h2>$summary_headline</h2><div class="summary__grid"><div>$summary_overview</div><aside><span>Primary opportunity</span><strong>$summary_opportunity</strong><h3>In this audit</h3><ul>$key_findings</ul></aside></div></section>
+    <section class="section"><div class="section-heading"><div><p class="eyebrow">Prioritized opportunities</p><h2>Fix the friction closest to the decision.</h2></div><p>Prioritized by likely downside, not by cosmetic preference.</p></div><div class="issues">$issues</div></section>
+    <section class="rewrite section"><div><p class="eyebrow">Hero-copy rewrite</p><h2>A clearer first impression</h2></div><div class="hero-preview"><p class="hero-eyebrow">$hero_eyebrow</p><h3>$hero_headline</h3><p class="hero-subhead">$hero_subhead</p><span class="hero-cta">$hero_cta →</span><p class="hero-note">$hero_note</p></div></section>
+    <section class="section"><div class="section-heading"><div><p class="eyebrow">Experiment queue</p><h2>Five hypotheses worth testing.</h2></div><p>Each should be tested against a defined baseline before rollout.</p></div><div class="hypotheses">$hypotheses</div></section>
+    <section class="plan section"><div><p class="eyebrow">7-day action plan</p><h2>Move from diagnosis to signal.</h2></div><div class="days">$plan</div></section>
+    <section class="caveat"><p class="eyebrow">Important caveat</p><h2>These are informed hypotheses, not guarantees.</h2><p>This report is based on the supplied observation set. Recommendations must be validated with analytics, user research, and controlled testing before being treated as proven drivers of revenue or conversion.</p></section>
+    <footer>FirstFold audit · Generated $generated_at · Confidential client working document</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "client_name": "Harbor Ledger CPA (fictional)",
+    "website": "harborledger.example",
+    "audit_title": "Paid-Search Consultation Landing-Page Audit",
+    "audit_date": "2026-07-18",
+    "prepared_by": "FirstFold",
+    "fictional": true
+  },
+  "executive_summary": {
+    "headline": "The page suggests broad accounting help, but a paid-search visitor cannot quickly confirm service fit, local relevance, or what happens after requesting a consultation.",
+    "overview": "This fictional observation set depicts a CPA and accounting landing page receiving high-intent paid-search traffic. The visitor likely arrived with a specific need—such as tax planning, bookkeeping support, or a business return—yet the page leads with a general firm description and places service distinctions, eligibility details, and consultation expectations farther down.\n\nThe immediate opportunity is to mirror the search intent without making unsupported tax, savings, turnaround, or availability claims. A focused landing page can clearly state the client types and service scope, establish verifiable local/professional trust, and make the consultation request feel appropriately low-friction and well defined.",
+    "opportunity": "Let a prospective business owner answer: does this firm handle my situation in my area, and what will a consultation request involve?",
+    "key_findings": [
+      "The first-screen message is firm-centered and broad rather than aligned to the searcher’s accounting or tax task.",
+      "Professional credentials, jurisdiction, and service scope are not visible before the consultation request.",
+      "The contact form asks for a meeting without explaining response expectations, privacy handling, or what information is appropriate to share."
+    ]
+  },
+  "issues": [
+    {
+      "title": "Paid-search intent is not reflected in the first message",
+      "severity": "critical",
+      "impact": "High: a visitor who searched for a specific accounting need may leave before recognizing relevant help.",
+      "effort": "small",
+      "finding": "In this fictional review, the hero says ‘Trusted financial guidance for every stage’ while the paid-search ad groups are presumed to target distinct needs such as small-business tax preparation or monthly bookkeeping.",
+      "recommendation": "Create compliant, service-specific variants that name the intended client, service scope, and location only where each statement is accurate.",
+      "evidence": [
+        "Fictional observation: the hero does not name a specific accounting service or client type.",
+        "Fictional observation: search-intent terms are not echoed until after the first scroll."
+      ]
+    },
+    {
+      "title": "Professional and local fit arrive too late",
+      "severity": "high",
+      "impact": "Medium-high: trust-sensitive visitors may hesitate if license, jurisdiction, and office context are unclear.",
+      "effort": "small",
+      "finding": "The fictional page links to an About page but does not surface the CPA credential, service jurisdiction, office location, or relevant association information next to the initial consultation request.",
+      "recommendation": "Place concise, verifiable credentials and location/service-area information near the first CTA, with links to fuller professional details where appropriate.",
+      "evidence": [
+        "Fictional observation: credential details are not visible in the first viewport.",
+        "Fictional observation: the service area is not stated beside the consultation path."
+      ]
+    },
+    {
+      "title": "Service scope does not help visitors self-qualify",
+      "severity": "high",
+      "impact": "Medium: generic service labels can create both hesitation from good-fit leads and unsuitable inquiries.",
+      "effort": "medium",
+      "finding": "The fictional service grid lists ‘Tax,’ ‘Accounting,’ and ‘Advisory’ without identifying the business types, engagement boundaries, or situations the firm does and does not take on.",
+      "recommendation": "Use plain-language scope statements and an accurate ‘best fit’ guide; route specialized or unsupported needs responsibly rather than implying universal coverage.",
+      "evidence": [
+        "Fictional observation: service cards have broad labels with no engagement context.",
+        "Fictional observation: the page does not distinguish individual, business, bookkeeping, or advisory inquiries."
+      ]
+    },
+    {
+      "title": "Consultation form creates avoidable uncertainty",
+      "severity": "medium",
+      "impact": "Medium: financial-services visitors may avoid a form when privacy, requested detail, and follow-up are unclear.",
+      "effort": "small",
+      "finding": "In the fictional flow, the form requests an open-ended message before explaining a typical response process or cautioning against sending sensitive tax or financial information through the form.",
+      "recommendation": "Add accurate response-process copy, a privacy link, and a clear instruction not to send sensitive information until a secure method is provided.",
+      "evidence": [
+        "Fictional observation: no pre-submit privacy or sensitive-information guidance appears near the form.",
+        "Fictional observation: the request button does not explain the follow-up step."
+      ]
+    }
+  ],
+  "hero_copy": {
+    "eyebrow": "CPA support for [verified local area] businesses",
+    "headline": "Get clear on your business tax and accounting next steps.",
+    "subhead": "Talk with Harbor Ledger CPA about [verified services] for [verified client types]. Tell us what you need help with, and we’ll confirm whether a consultation is the right next step.",
+    "cta": "Request a consultation",
+    "supporting_note": "Credential and service-area details should be verified before publishing · Please do not send sensitive financial or tax information through this form"
+  },
+  "test_hypotheses": [
+    {
+      "hypothesis": "Matching the paid-search service intent in the headline will improve relevant consultation starts.",
+      "change": "Test approved service-specific headline and subhead variants against the generic firm-first hero for the corresponding ad group.",
+      "success_metric": "Change in consultation starts and completed requests from the matched search campaign, reviewed with lead-fit outcomes."
+    },
+    {
+      "hypothesis": "Visible verified CPA and local-service context will reduce initial trust uncertainty.",
+      "change": "Add an approved credential, jurisdiction/service-area statement, and link to complete professional information next to the CTA.",
+      "success_metric": "Higher CTA engagement or form-start rate, checked alongside qualitative feedback and compliance review."
+    },
+    {
+      "hypothesis": "A concise best-fit guide will help suitable visitors recognize themselves before submitting.",
+      "change": "Add accurate cards for the firm’s accepted service lines and client types, including clear boundaries where work is not offered.",
+      "success_metric": "Improved proportion of consultation requests that meet the firm’s pre-defined fit criteria."
+    },
+    {
+      "hypothesis": "Clear form expectations and sensitive-data guidance will support more deliberate requests.",
+      "change": "Add a privacy link, a ‘do not send sensitive information’ instruction, and truthful copy on the response process before the submit button.",
+      "success_metric": "Form completion rate and lead completeness, monitored without collecting or exposing unnecessary sensitive data."
+    },
+    {
+      "hypothesis": "A single consultation CTA aligned with the campaign will reduce competing paths.",
+      "change": "Use one dominant ‘Request a consultation’ CTA on the campaign landing page and demote general navigation to a secondary treatment.",
+      "success_metric": "Higher share of eligible sessions reaching the intended form without a decline in qualified-request rate."
+    }
+  ],
+  "action_plan": [
+    {"day": 1, "focus": "Intent & baseline", "actions": "List paid-search ad groups, keywords, landing destinations, current form events, and lead-fit definitions. Preserve a baseline before changing copy.", "deliverable": "Search-intent-to-page map and measurement baseline."},
+    {"day": 2, "focus": "Compliance review", "actions": "Confirm credentials, jurisdiction, service area, accepted client types, privacy language, response process, and prohibited claims with the firm’s authorized reviewer.", "deliverable": "Approved claims and disclosure checklist."},
+    {"day": 3, "focus": "Message variants", "actions": "Draft one compliant landing-page message hierarchy for the highest-intent service group, using only approved scope and location language.", "deliverable": "Reviewed hero, CTA, and microcopy variant."},
+    {"day": 4, "focus": "Fit & trust modules", "actions": "Build a concise best-fit guide and credential/service-area module; add a secure-contact instruction without implying outcomes or availability that cannot be verified.", "deliverable": "QA-ready scope, trust, and privacy modules."},
+    {"day": 5, "focus": "Form & measurement", "actions": "Review form fields for minimum necessary information, verify consent/privacy links, instrument starts and submits, and define qualified-lead review criteria.", "deliverable": "Form QA record and experiment measurement brief."},
+    {"day": 6, "focus": "Controlled launch", "actions": "Launch the approved variant for one matching campaign segment, test the mobile experience, and verify analytics plus privacy links.", "deliverable": "Launch checklist and monitored variant."},
+    {"day": 7, "focus": "Evaluate signal", "actions": "Compare early directional behavior by matched campaign and inspect lead-fit feedback; retain, revise, or stop according to the pre-set rule.", "deliverable": "Learning memo and next-step recommendation."}
+  ]
+}

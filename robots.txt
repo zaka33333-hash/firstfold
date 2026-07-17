@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zaka33333-hash.github.io/firstfold/sitemap.xml

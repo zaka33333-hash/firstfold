@@ -1,4 +1,4 @@
-/* Requests open through GitHub now; replace with hosted checkout URLs when useful. */
+/* Requests intentionally open through a public GitHub form; replace only when a hosted request path is live. */
 const checkoutConfig = {
   fixMap: "https://github.com/zaka33333-hash/firstfold/issues/new?template=audit-request.yml",
   fixSprint: "https://github.com/zaka33333-hash/firstfold/issues/new?template=audit-request.yml"

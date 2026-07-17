@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "client_name": "Sprintboard Cloud (fictional)",
+    "website": "sprintboard.example",
+    "audit_title": "B2B SaaS Demo & Trial Landing-Page Audit",
+    "audit_date": "2026-07-18",
+    "prepared_by": "FirstFold",
+    "fictional": true
+  },
+  "executive_summary": {
+    "headline": "The page introduces a capable work-management platform, but it does not make a new team confident that a demo or trial is the right next step.",
+    "overview": "This fictional observation set depicts a B2B project-management landing page used by paid and outbound visitors. The page names several product modules early, while the primary outcome, ideal buyer, and setup path remain distributed across the page. A manager evaluating a new tool may need to translate feature language into a practical reason to book a demo or start a trial.\n\nThe near-term opportunity is to make the first screen more decision-oriented: state the team problem, show the intended workflow, differentiate the two conversion paths, and put credible product proof beside the call to action. None of these observations represents client analytics or proven performance.",
+    "opportunity": "Help an operations or delivery lead answer: can this reduce project-status work for my team, and should I start with a demo or a trial?",
+    "key_findings": [
+      "The headline names a broad category but does not connect it to a concrete coordination outcome or buyer role.",
+      "‘Book a demo’ and ‘Start free trial’ are equally prominent without explaining who each route serves.",
+      "The first screen references integrations but does not show a believable in-product workflow or a source for the proof language."
+    ]
+  },
+  "issues": [
+    {
+      "title": "Hero promise stops at the category",
+      "severity": "critical",
+      "impact": "High: cold B2B visitors may not recognize whether the product addresses their immediate operating problem.",
+      "effort": "small",
+      "finding": "In this fictional page review, the hero describes ‘one workspace for every project’ but does not name the target team, the status-reporting burden, or the intended result.",
+      "recommendation": "Lead with the operational outcome and intended buyer, then use the subhead to explain the planning, collaboration, and reporting scope.",
+      "evidence": [
+        "Fictional observation: the first-screen headline uses a category phrase rather than a team problem or result.",
+        "Fictional observation: the first buyer-role reference appears in a lower feature section."
+      ]
+    },
+    {
+      "title": "Demo and trial paths are not differentiated",
+      "severity": "high",
+      "impact": "Medium-high: equal calls to action can leave visitors uncertain about the commitment, fit, and next step.",
+      "effort": "small",
+      "finding": "The fictional hero gives ‘Book a demo’ and ‘Start free trial’ identical button treatment, with no explanation of guided evaluation, self-serve access, eligibility, or setup expectations.",
+      "recommendation": "Keep one primary route for the paid-traffic intent being targeted and add concise, accurate guidance for the alternate path.",
+      "evidence": [
+        "Fictional observation: both conversion buttons occupy the same visual hierarchy.",
+        "Fictional observation: no adjacent microcopy explains the practical difference between a demo and trial."
+      ]
+    },
+    {
+      "title": "Product proof is described rather than demonstrated",
+      "severity": "high",
+      "impact": "Medium: buyers evaluating workflow software may hesitate when they cannot quickly picture the product in use.",
+      "effort": "medium",
+      "finding": "The fictional first viewport contains a generic dashboard image and an ‘integrates with your stack’ statement, but no annotated workflow, named integration context, or attributable customer proof.",
+      "recommendation": "Show one realistic before-and-after workflow with accurate labels, then place an attributable proof element or clearly labeled customer-story link near the CTA.",
+      "evidence": [
+        "Fictional observation: the screen image has no labels connecting it to a manager’s planning or status workflow.",
+        "Fictional observation: the integration statement does not identify supported tools or link to verification."
+      ]
+    },
+    {
+      "title": "Form reassurance arrives after the conversion click",
+      "severity": "medium",
+      "impact": "Medium: visitors may defer action if they cannot anticipate what information or follow-up the route requires.",
+      "effort": "small",
+      "finding": "In the fictional flow, demo visitors learn form length and scheduling expectations only after clicking, while trial visitors see account requirements only on the next screen.",
+      "recommendation": "Use truthful pre-click microcopy to set expectations for the selected route, including whether a work email, calendar step, or product setup is involved.",
+      "evidence": [
+        "Fictional observation: the landing page does not state what the demo request asks for.",
+        "Fictional observation: trial setup expectations are absent from the hero and CTA area."
+      ]
+    }
+  ],
+  "hero_copy": {
+    "eyebrow": "For delivery and operations teams",
+    "headline": "Turn scattered project updates into one clear plan your team can run.",
+    "subhead": "Sprintboard brings project work, ownership, and status visibility into one workspace—so delivery leads can see what needs attention without chasing updates across tools.",
+    "cta": "Book a workflow demo",
+    "supporting_note": "See a guided walkthrough of your use case · Trial option available for teams ready to explore independently"
+  },
+  "test_hypotheses": [
+    {
+      "hypothesis": "Naming the delivery-team outcome in the hero will increase qualified demo intent from new paid visitors.",
+      "change": "A/B test the outcome-and-buyer headline against the current category-led headline, keeping traffic targeting constant.",
+      "success_metric": "Change in completed demo requests per eligible paid session, reviewed with lead-quality signals rather than form volume alone."
+    },
+    {
+      "hypothesis": "Explaining when to choose a demo versus trial will reduce route uncertainty.",
+      "change": "Make the demo route primary for the evaluated campaign and add accurate one-line guidance plus a secondary trial link.",
+      "success_metric": "Higher primary-route continuation rate without an adverse change in qualified conversion rate or trial activation quality."
+    },
+    {
+      "hypothesis": "An annotated workflow image will make the product promise easier to evaluate.",
+      "change": "Replace the generic product visual with one labeled workflow that shows planning, ownership, and status review using only verified capabilities.",
+      "success_metric": "Increase in CTA engagement and product-proof interaction; validate with qualitative session feedback."
+    },
+    {
+      "hypothesis": "Truthful pre-click form expectations will improve deliberate demo starts.",
+      "change": "Add concise copy beside the demo CTA stating the information requested and the scheduling step, subject to confirmation by the sales team.",
+      "success_metric": "Improved form-start-to-submit rate while monitoring lead completeness and no-show patterns."
+    },
+    {
+      "hypothesis": "An attributable customer proof element will support confidence without overstating results.",
+      "change": "Place one approved customer quote or case-study link beside the CTA, including attribution and any necessary context.",
+      "success_metric": "Change in qualified conversion rate versus the control; do not interpret an early directional difference as a proven lift."
+    }
+  ],
+  "action_plan": [
+    {"day": 1, "focus": "Baseline & audience", "actions": "Map paid and outbound entry sources, current demo and trial events, form steps, and the intended buyer role. Capture the fictional/current-page equivalent for comparison.", "deliverable": "Channel-to-conversion measurement map and baseline checklist."},
+    {"day": 2, "focus": "Claim validation", "actions": "Confirm the supported workflow, integration language, demo process, trial access, and any customer proof with product and sales owners before drafting.", "deliverable": "Approved claim inventory and conversion-path notes."},
+    {"day": 3, "focus": "Hero variant", "actions": "Create a reversible hero variant with outcome-led messaging, a selected primary CTA, and accurate route guidance.", "deliverable": "Staging-ready first-screen variant."},
+    {"day": 4, "focus": "Workflow proof", "actions": "Build one annotated product workflow and connect it to the stated buyer problem; add only verified proof or a labeled customer-story link.", "deliverable": "Reviewed proof module and alt-text copy."},
+    {"day": 5, "focus": "Instrumentation", "actions": "Verify CTA, form-start, form-submit, scheduling, and trial-activation events; define qualification checks, sample thresholds, and a decision rule.", "deliverable": "Experiment brief and QA checklist."},
+    {"day": 6, "focus": "Controlled launch", "actions": "Release the variant to the chosen eligible segment, test desktop/mobile paths, and monitor broken events or routing issues.", "deliverable": "Launch record and issue log."},
+    {"day": 7, "focus": "Read signal", "actions": "Review early directional behavior by source and device alongside sales feedback; retain, revise, or stop based on the pre-defined rule.", "deliverable": "Learning memo with the next test decision."}
+  ]
+}

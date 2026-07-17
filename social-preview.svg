@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">FirstFold — Make the first screen earn its click</title>
+  <desc id="description">Focused landing-page conversion work for the page people see first.</desc>
+  <rect width="1200" height="630" fill="#f5f0e8"/>
+  <circle cx="940" cy="272" r="205" fill="#d8edb0"/>
+  <g transform="translate(760 125) rotate(7 150 175)">
+    <rect width="290" height="350" fill="#f5b9b0"/>
+    <path d="M37 60h164M37 90h126M37 120h155" stroke="#c76e61" stroke-width="12"/>
+  </g>
+  <g transform="translate(685 93) rotate(-5 170 190)">
+    <rect width="340" height="375" fill="#fffdf8"/>
+    <rect width="340" height="30" fill="#e8e3d9"/>
+    <circle cx="16" cy="15" r="3" fill="#aeb5aa"/><circle cx="27" cy="15" r="3" fill="#aeb5aa"/><circle cx="38" cy="15" r="3" fill="#aeb5aa"/>
+    <path d="M35 88h70M35 124h222M35 157h190M35 190h116" stroke="#17231f" stroke-width="16"/>
+    <path d="M35 235h160M35 253h122" stroke="#9ca59d" stroke-width="7"/>
+    <rect x="35" y="284" width="116" height="34" fill="#d8edb0"/>
+  </g>
+  <g fill="#17231f">
+    <text x="92" y="148" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">FIRSTFOLD</text>
+    <text x="92" y="285" font-family="Georgia, serif" font-size="78" font-weight="700" letter-spacing="-4">Make the first screen</text>
+    <text x="92" y="370" font-family="Georgia, serif" font-size="78" font-style="italic" font-weight="700" letter-spacing="-4">earn its click.</text>
+    <text x="96" y="452" font-family="Arial, sans-serif" font-size="26" fill="#48534c">Focused conversion work for the page people see first.</text>
+  </g>
+  <rect x="92" y="505" width="210" height="56" fill="#17231f"/>
+  <text x="117" y="541" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#fffdf8">FIRSTFOLD</text>
+</svg>
